@@ -1,0 +1,20 @@
+   dot_product
+ v1:= ;
+ v2:= ;
+ const vector =[];
+let i = 0; i < v1 length: i ++;
+let j =0; j < v2 length : j++;
+ set v2[j] to v1[i].value
+ push v1[i] element to vector[];
+ }
+ end loop
+ 
+ loop throu vector arr [];{
+ multiply vector[i]key * vector[i]value
+ if (result=== 0)
+ }
+ result == orthogSonal
+
+
+
+   
