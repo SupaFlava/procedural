@@ -1,19 +1,29 @@
-   dot_product
- v1:= ;
- v2:= ;
- const vector =[];
-let i = 0; i < v1 length: i ++;
-let j =0; j < v2 length : j++;
- set v2[j] to v1[i].value
- push v1[i] element to vector[];
- }
- end loop
+  
  
  loop throu vector arr [];{
  multiply vector[i]key * vector[i]value
  if (result=== 0)
  }
  result == orthogSonal
+ ALGORITHM dot_product
+ VAR
+   v1 : INTEGER := value;
+   u1 : INTEGER := value;
+   
+ BEGIN
+   set_instructions
+   FOR i FROM 0 TO v1 length STEP ++  DO
+       set_instructions
+     let product = product + v1[i] * u1[i];
+     IF (product === 0) THEN
+     product is orthogonal
+     ELSE
+       product is not orthogonal
+     END_IF
+     END_FOR
+     set_instructions
+   END_FOR
+ END
 
 
 
